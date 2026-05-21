@@ -3,38 +3,35 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous"
-        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="src/css/style.css" />
         <title>Mais Saúde</title>
     </head>
     <body>
         <!--Cabeçalho da Landing Page-->
 
-        <header class="cabecalho">
-            <section class="logoTitle">
-                <img src="img/logo.png" alt="Logo" class="logo" />
-                <h1 class="title">Mais Saúde</h1>
-            </section>
-            <section class="containerMenu">
-                <nav class="menu">
-                    <ul>
-                        <li class="sobre">
-                            <a href="#sobre">QUEM SOMOS</a>
-                        </li>
-                        <li class="servicos">
-                            <a href="#servicos">SERVIÇOS</a>
-                        </li>
-                        <li class="contatos">
-                            <a href="#CONTATOS">CONTATOS</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
+        <header class="cabecalho container-fluid d-flex flex-column justify-content-center align-content-center flex-md-row justify-content-md-around border">
+            <div class="containerConteudo w-100 d-flex flex-column justify-content-center align-items-center aligns-content-md-center flex-md-row">
+              <section class="logoTitle d-flex flex-column justify-content-center align-content-center flex-md-row w-50 py-3">
+                  <img src="img/logo.png" alt="Logo" class="logo mx-2 text-center" />
+                  <h1 class="title text-center">Mais Saúde</h1>
+              </section>
+              <section class="containerMenu d-flex flex-column justify-content-center align-content-center w-50 py-3">
+                  <nav class="menu">
+                      <ul class="d-flex flex-column justify-content-around align-items-center flex-md-row w-100">
+                          <li class="sobre text-md-center mt-3 mt-md-0">
+                              <a href="#sobre">QUEM SOMOS</a>
+                          </li>
+                          <li class="servicos text-center my-5 my-md-0">
+                              <a class="p-3" href="#servicos">SERVIÇOS</a>
+                          </li>
+                          <li class="contatos text-center mb-3 mb-md-0">
+                              <a href="#CONTATOS">CONTATOS</a>
+                          </li>
+                      </ul>
+                  </nav>
+              </section>
+            </div>
         </header>
 
         <!--Conteúdo da Landing Page-->
