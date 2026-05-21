@@ -10,7 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body{
@@ -23,41 +23,35 @@ body{
 
 .cabecalho{
   background-color: var(--azulClaro);
+  box-shadow: 1px 2px 10px black;
+}
+
+.cabecalho > .nav-bar{
+  padding: 1.5rem 6rem;
 }
 
 /* Logo e título */
 
-.cabecalho > .containerConteudo > .logoTitle > .title{
+.cabecalho > .nav-bar > .logoTitle > .title{
   font-size: 1.7rem;
 }
 
 
 /* Menu */
 
-.cabecalho > .containerConteudo > .containerMenu > .menu > ul{
+.cabecalho > .nav-bar > .nav-list > .list{
   list-style: none;
 }
 
 
-.cabecalho > .containerConteudo >  .containerMenu > .menu > ul > li > a{
+.cabecalho > .nav-bar >  .nav-list  > .list > .nav-item > .nav-link{
   text-decoration: none;
 }
 
 .title,
-.containerMenu > .menu > ul > li > a{
+.nav-list > .list > .nav-item > .nav-link{
   color: var(--brancoFloral);
   font-weight: 700;
   font-size: 1.3rem;
   height: 100%;
 }
-
-.containerMenu > .menu > ul > li > a{
-  transform: skew(30deg, 20deg);
-  transition: 1s ease-in-out;
-}
-
-.containerMenu > .menu > ul > li > a:hover{
-  background-color: var(--preto);
-  border-radius: 50px;
-}
-
