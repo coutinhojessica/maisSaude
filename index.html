@@ -10,22 +10,22 @@
     <body>
         <!--Cabeçalho da Landing Page-->
 
-        <header class="cabecalho container-fluid d-flex flex-column justify-content-center align-content-center flex-md-row justify-content-md-around border">
-            <div class="containerConteudo w-100 d-flex flex-column justify-content-center align-items-center aligns-content-md-center flex-md-row">
-              <section class="logoTitle d-flex flex-column justify-content-center align-content-center flex-md-row w-50 py-3">
-                  <img src="img/logo.png" alt="Logo" class="logo mx-2 text-center" />
-                  <h1 class="title text-center">Mais Saúde</h1>
+        <header class="cabecalho container-fluid">
+            <div class="containerConteudo grid gap-5 row row-cols-md-auto align-items-center justify-content-center p-2">
+              <section class="logoTitle col-12 row-cols-md-12 text-center d-flex flex-column flex-md-row align-items-center gap-3">
+                  <img src="img/logo.png" width="50px" height="50px" alt="Logo" class="logo text-center p-1" />
+                  <h1 class="title text-center p-1">Mais Saúde</h1>
               </section>
-              <section class="containerMenu d-flex flex-column justify-content-center align-content-center w-50 py-3">
-                  <nav class="menu d-flex flex-column justify-content-center align-content-center">
-                      <ul class="d-flex flex-column justify-content-md-around align-content-center justify-items-center flex-md-row w-100">
-                          <li class="sobre mt-3 mt-md-0">
+              <section class="containerMenu col-12 row-cols-md-12">
+                  <nav class="menu p-2">
+                      <ul class="lista p-2 d-flex flex-column align-items-center flex-md-row justify-content-md-around">
+                          <li class="sobre text-center p-1 mt-3 mt-md-0">
                               <a href="#sobre">QUEM SOMOS</a>
                           </li>
-                          <li class="servicos my-5 my-md-0">
-                              <a class="p-3" href="#servicos">SERVIÇOS</a>
+                          <li class="servicos text-center p-1 my-5 my-md-0">
+                              <a class="mx-5" href="#servicos">SERVIÇOS</a>
                           </li>
-                          <li class="contatos mb-3 mb-md-0">
+                          <li class="contatos text-center p-1 mb-3 mb-md-0">
                               <a href="#CONTATOS">CONTATOS</a>
                           </li>
                       </ul>
@@ -37,7 +37,7 @@
         <!--Conteúdo da Landing Page-->
 
         <!--Apresentação da empresa-->
-        <main class="conteudo">
+        <main class="conteudo m-5">
             <section class="apresentacao">
                 <div class="apresentacaoText">
                     <h2 class="">
@@ -275,11 +275,11 @@
             </section>
 
             <!--Localização-->
-            <section class="localizacao">
+            <section>
                 <h2>Onde nos encontrar</h2>
                 <iframe
-                    class="w-100"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15836.073695326344!2d-34.98368738465576!3d-7.123861665321216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1779325794107!5m2!1spt-BR!2sbr"
+                    width="600"
                     height="450"
                     style="border: 0"
                     allowfullscreen=""

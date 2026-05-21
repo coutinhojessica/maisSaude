@@ -10,12 +10,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body{
   font-size: 16px;
   min-height: 100vh;
+  max-width: 100vw;
 }
 
 /* Estilo do cabeçalho */
@@ -53,7 +54,6 @@ body{
 .containerMenu > .menu > ul > li > a{
   transform: skew(30deg, 20deg);
   transition: 1s ease-in-out;
-  width: 100%;
 }
 
 .containerMenu > .menu > ul > li > a:hover{
