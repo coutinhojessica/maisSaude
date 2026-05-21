@@ -43,6 +43,9 @@ body{
   list-style: none;
 }
 
+.cabecalho > .nav-bar >  .nav-list  > .list > .nav-item{
+  padding: 0 15px;
+}
 
 .cabecalho > .nav-bar >  .nav-list  > .list > .nav-item > .nav-link{
   text-decoration: none;
