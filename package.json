@@ -1,0 +1,24 @@
+{
+  "name": "maissaude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coutinhojessica/maisSaude.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/coutinhojessica/maisSaude/issues"
+  },
+  "homepage": "https://github.com/coutinhojessica/maisSaude#readme",
+  "devDependencies": {
+    "eslint": "^10.4.0"
+  }
+}

@@ -11,8 +11,8 @@
         <!--Cabeçalho da Landing Page-->
 
         <header class="cabecalho container-fluid">
-            <nav class="nav-bar d-flex flex-column align-items-center justify-content-center flex-md-row justify-content-md-around">
-              <section class="logoTitle text-center d-flex flex-column flex-md-row align-items-center">
+            <nav class="nav-bar d-flex flex-row align-items-center justify-content-center justify-content-md-around">
+              <section class="logoTitle text-center">
                   <img src="img/logo.png" width="50px" height="50px" alt="Logo" class="logo text-center p-1" />
                   <h1 class="title text-center p-1">Mais Saúde</h1>
               </section>
@@ -29,7 +29,25 @@
                           </li>
                       </ul>
               </section>
+              <section class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                  <img class="icon" src="assets/img/menu.svg" width="50" height="50">
+                </button>
+              </section>
             </nav>
+            <section class="mobile-menu">
+              <ul class="list d-flex flex-column text-center">
+                          <li class="nav-item sobre text-center">
+                              <a class="nav-link" href="#sobre">QUEM SOMOS</a>
+                          </li>
+                          <li class="nav-item  servicos text-center">
+                              <a class="nav-link mx-5" href="#servicos">SERVIÇOS</a>
+                          </li>
+                          <li class="nav-item contatos text-center">
+                              <a class="nav-link" href="#CONTATOS">CONTATOS</a>
+                          </li>
+                      </ul>
+            </section>
         </header>
 
         <!--Conteúdo da Landing Page-->
