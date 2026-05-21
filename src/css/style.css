@@ -1,3 +1,11 @@
+:root{
+  --preto: #000000;
+  --vermelhoEscuro: #8B0000; /*avisos*/
+  --verdeOliva: #556B2F;
+  --azulClaro: #4682B4;
+  --brancoFloral: #FFFAF0;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +14,49 @@
 
 body{
   font-size: 16px;
+  min-height: 100vh;
 }
+
+/* Estilo do cabeçalho */
+
+.cabecalho{
+  background-color: var(--azulClaro);
+}
+
+/* Logo e título */
+
+.cabecalho > .containerConteudo > .logoTitle > .title{
+  font-size: 1.7rem;
+}
+
+
+/* Menu */
+
+.cabecalho > .containerConteudo > .containerMenu > .menu > ul{
+  list-style: none;
+}
+
+
+.cabecalho > .containerConteudo >  .containerMenu > .menu > ul > li > a{
+  text-decoration: none;
+}
+
+.title,
+.containerMenu > .menu > ul > li > a{
+  color: var(--brancoFloral);
+  font-weight: 700;
+  font-size: 1.3rem;
+  height: 100%;
+}
+
+.containerMenu > .menu > ul > li > a{
+  transform: skew(30deg, 20deg);
+  transition: 1s ease-in-out;
+  width: 100%;
+}
+
+.containerMenu > .menu > ul > li > a:hover{
+  background-color: var(--preto);
+  border-radius: 50px;
+}
+
